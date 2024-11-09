@@ -69,12 +69,14 @@ onMounted(() => {
               href="https://www.linkedin.com/in/neeraj-maurya-73a5691ab"
               target="_blank"
             >
+              <i class="fa-brands fa-linkedin"></i>
               Linked in
             </a>
           </li>
           <li>|</li>
           <li>
             <a class="text-white" href="https://github.com/neerajmauryagpj" target="_blank">
+              <i class="fa-brands fa-github"></i>
               Github
             </a>
           </li>
@@ -89,10 +91,14 @@ onMounted(() => {
       <div class="_contact_me">
         <ul>
           <li>
-            <a class="text-white" href="tel:+916392032056"> +91 6392032056 </a>
+            <a class="text-white" href="tel:+916392032056"
+              ><i class="fa-solid fa-phone"></i> +91 6392032056
+            </a>
           </li>
           <li>
-            <a class="text-white" href="mailto:neerajgpj98@gmail.com"> neerajgpj98@gmail.com </a>
+            <a class="text-white" href="mailto:neerajgpj98@gmail.com">
+              <i class="fa-regular fa-envelope"></i> neerajgpj98@gmail.com
+            </a>
           </li>
         </ul>
       </div>
@@ -119,27 +125,32 @@ onMounted(() => {
           <ul>
             <li class="mb-2">
               <b>Frontend Technologies : </b>
-              HTML5, CSS3, JavaScript, Vue.js, Bootstrap, Vuetify, Pinia
+              <span class="text-white font-sm">
+                HTML5, CSS3, JavaScript, ES6, Vue.js (Vue2 & Vue3), Bootstrap, Vuetify, Pinia, Vue
+                Router</span
+              >
             </li>
             <li class="mb-2">
               <b>State Management : </b>
-              Vuex, Pinia
+              <span class="text-white font-sm"> Vuex, Pinia </span>
             </li>
             <li class="mb-2">
               <b>UI Libraries : </b>
-              Vuetify, Bootstrap
+              <span class="text-white font-sm"> Vuetify, Bootstrap </span>
             </li>
             <li class="mb-2">
               <b>API Integration : </b>
-              RESTful APIs, JSON
+              <span class="text-white font-sm"> RESTful APIs, JSON </span>
             </li>
             <li class="mb-2">
               <b>Version Control : </b>
-              Git, GitHub
+              <span class="text-white font-sm"> Git, GitHub </span>
             </li>
             <li class="mb-2">
               <b>Other Skills : </b>
-              Responsive Design, Cross-browser Compatibility
+              <span class="text-white font-sm">
+                Responsive Design, Cross-browser Compatibility
+              </span>
             </li>
           </ul>
         </div>
@@ -239,6 +250,61 @@ onMounted(() => {
       </div>
       <div id="project">
         <div class="section-title">Project</div>
+        <div class="_project_card">
+          <div class="_preview_img">
+            <a href="images/ecom-1.jpg" target="_blank">
+              <img src="/images/ecom-1.jpg" alt="" />
+            </a>
+            <div
+              :style="{
+                display: 'flex',
+                gap: '8px'
+              }"
+            >
+              <a href="images/ecom-2.jpg" target="_blank">
+                <img class="mt-4" src="/images/ecom-2.jpg" alt="" />
+              </a>
+              <a href="images/ecom-3.jpg" target="_blank">
+                <img class="mt-4" src="/images/ecom-3.jpg" alt="" />
+              </a>
+              <a href="images/ecom-4.jpg" target="_blank">
+                <img class="mt-4" src="/images/ecom-4.jpg" alt="" />
+              </a>
+              <a href="images/ecom-5.jpg" target="_blank">
+                <img class="mt-4" src="/images/ecom-5.jpg" alt="" />
+              </a>
+              <a href="images/ecom-6.jpg" target="_blank">
+                <img class="mt-4" src="/images/ecom-6.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="_about_project">
+            <div class="_project_name">
+              <a class="text-white" href="https://app.workstatus.io" target="_blank">
+                Shanvi Shop – E-commerce Platform
+              </a>
+            </div>
+            <div class="_project_description">
+              Shanvi Shop is a comprehensive e-commerce platform built to offer a seamless shopping
+              experience. Developed with VUe 3 for high performance and optimized loading, the site
+              enables users to browse a wide range of products, view detailed descriptions, and make
+              secure online purchases. Key features include a dynamic product catalog, smooth user
+              interface, and robust backend functionality powered by Laravel, ensuring reliability
+              and scalability. Designed with a mobile-first approach, Shanvi Shop provides an
+              accessible and intuitive experience across all devices, reflecting modern e-commerce
+              trends and best practices.
+            </div>
+            <div class="_technology">
+              <div class="_texch_chip">HTML5</div>
+              <div class="_texch_chip">CSS3 & SCSS</div>
+              <div class="_texch_chip">JavaScript</div>
+              <div class="_texch_chip">Vue 3</div>
+              <div class="_texch_chip">Quasar</div>
+              <div class="_texch_chip">Pinia Store</div>
+              <div class="_texch_chip">Laravel & MySQL</div>
+            </div>
+          </div>
+        </div>
         <div class="_project_card">
           <div class="_preview_img">
             <a href="images/task_thumb.jpg" target="_blank">

@@ -280,7 +280,7 @@ onMounted(() => {
           </div>
           <div class="_about_project">
             <div class="_project_name">
-              <a class="text-white" href="https://app.workstatus.io" target="_blank">
+              <a class="text-white" href="https://shanvishop.in" target="_blank">
                 Shanvi Shop – E-commerce Platform
               </a>
             </div>
